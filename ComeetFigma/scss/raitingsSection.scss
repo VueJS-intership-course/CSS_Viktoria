@@ -1,0 +1,44 @@
+.ratings-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 10.25rem;
+  gap: 2.5rem;
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .standart_img {
+      width: 4.5rem;
+      height: 4.5rem;
+      padding: 1.25rem 5.5rem 2.25rem 5.5rem;
+    }
+
+    .get-app_img {
+      width: 7.25rem;
+      height: 7.25rem;
+      padding: 0 5.75rem 1rem 5.75rem;
+    }
+
+    .sa_img {
+      width: 12.25rem;
+      height: 2.5rem;
+      padding: 2rem 1rem 3.5rem 1rem;
+    }
+  }
+
+  .stars {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  span {
+    text-align: center;
+    height: 2rem;
+    margin-top: 0.5rem;
+    color: $colorblack;
+    font: normal 400 16px/24px Montserrat;
+  }
+}

@@ -1,0 +1,50 @@
+.eget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6.75rem;
+  gap: 1.5rem;
+
+  .eget_h1 {
+    color: $colorblack;
+    text-align: center;
+    font: normal 600 48px/112.5% Montserrat;
+  }
+
+  .eget_p {
+    width: 40.15rem;
+    height: 5.25rem;
+    text-align: center;
+    padding: 1.25rem 25rem 3rem 25rem;
+    color: $colorblack;
+    font: normal 600 18px/28px Montserrat;
+  }
+}
+
+.eget_boxes {
+  display: inline-flex;
+  margin: 0 10.25rem;
+
+  .eget_box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 17.25rem;
+    height: 11.75rem;
+    padding: 3rem 3rem 3.25rem 3rem;
+    gap: 2rem;
+    border: 1px solid $lgray;
+    
+    .middle-svg {
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+      padding: 1.25rem;
+    }
+  }
+}
+
+.eget_box_span {
+  color: $colorblack;
+  font: normal 600 18px/28px Montserrat;
+}

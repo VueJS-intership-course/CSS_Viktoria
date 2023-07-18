@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+header {
+  background-color: #381df6;
+  width: 100%;
+  height: 45.75rem;
+}
+header .main-nav {
+  display: flex;
+  padding-top: 1.75rem;
+  justify-content: space-between;
+  align-items: center;
+  color: transparent;
+  z-index: 2;
+}
+header .main-nav .main-nav__tabs-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3.15rem;
+  list-style: none;
+}
+header .main-nav .main-nav__tabs-list .main-nav__tabs_item {
+  text-decoration: none;
+  color: #fff;
+  font: normal 500 1rem/1.5rem Montserrat;
+}
+header .main-nav .main-nav__logo {
+  width: 10.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  margin-left: 10.25rem;
+}
+header .main-nav .main-nav__button {
+  padding: 0.75rem 2rem;
+  gap: 0.75rem;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  font: normal 600 16px/24px Montserrat;
+  color: #ff5c68;
+  margin-right: 10.25rem;
+  z-index: 4;
+}
+header .containers {
+  display: flex;
+}
+header .containers .header-containter_heading {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.25rem;
+  padding: 4.15rem 2.75rem 5.75rem 10.25rem;
+}
+header .containers .header-containter_heading .header-containter_heading_h1 {
+  display: flex;
+  width: 35rem;
+  flex-direction: column;
+  color: #fff;
+  font: normal 600 46px/112.5% "Montserrat";
+}
+header .containers .header-containter_heading .header-containter_heading_p {
+  display: flex;
+  width: 32.5rem;
+  flex-direction: column;
+  color: #fff;
+  font: normal 400 18px/1.75rem Montserrat;
+  opacity: 0.8;
+  padding: 1.75rem 0;
+}
+header .containers .header-containter_heading .header-containter_heading_button {
+  padding: 0.75rem 2rem;
+  gap: 0.75rem;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  font: normal 600 16px/24px Montserrat;
+  color: #381df6;
+  text-align: center;
+  font: normal 600 1rem/1.5rem Montserrat;
+}
+header .containers .header-containter_images {
+  display: inline-flex;
+}
+header .containers .img-large {
+  position: absolute;
+  width: 34.25rem;
+  height: 24.25rem;
+  bottom: 9rem;
+  right: 5rem;
+  border-radius: 2px;
+  z-index: 2;
+}
+header .containers .img-bottom-right {
+  position: absolute;
+  width: 9.25rem;
+  height: 9.25rem;
+  bottom: 10rem;
+  right: 6.25rem;
+  border-radius: 3px;
+  z-index: 3;
+}
+header .containers .img-top-left {
+  position: absolute;
+  width: 9.25rem;
+  height: 9.25rem;
+  top: 14.75rem;
+  left: 48rem;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 31.25rem;
+  height: 31.25rem;
+  overflow: hidden;
+}
+.svg-container .outer-svg {
+  position: absolute;
+  width: 24.5rem;
+  height: 12.25rem;
+  right: 5.25rem;
+  top: -0.75rem;
+  transform: rotate(1deg);
+}
+.svg-container .inner-svg {
+  position: absolute;
+  width: 13rem;
+  height: 12.75rem;
+  right: 10.25rem;
+  top: -4.5rem;
+  transform: rotate(-8deg);
+}
+.svg-container .outer-svg-2 {
+  position: absolute;
+  width: 18.25rem;
+  height: 22.75rem;
+  right: -3.75rem;
+  top: 6.75rem;
+  transform: rotate(-6deg);
+}
+.svg-container .inner-svg-2 {
+  position: absolute;
+  width: 13rem;
+  height: 12.75rem;
+  right: -4rem;
+  top: 11.25rem;
+  transform: rotate(1deg);
+}
+
+.text-time {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10.25rem 0 2.75rem;
+}
+.text-time .text-time_h1 {
+  display: flex;
+  width: 33.25rem;
+  height: 6.75rem;
+  color: #0d0a10;
+  font: normal 600 48px/112.5% Montserrat;
+}
+.text-time .text-time_span {
+  width: 33.25rem;
+  padding: 2rem 0;
+  color: #0d0a10;
+  font: normal 400 24px/130% Montserrat;
+}
+.text-time .text-time_list {
+  display: flex;
+  flex-direction: column;
+  width: 33.25rem;
+  list-style-image: url("/images/Ellipse.png");
+  color: #0d0a10;
+  gap: 1.5rem;
+  font: normal 400 18px/28px Montserrat;
+}
+.text-time .time-button {
+  padding: 0.75rem 2rem;
+  gap: 0.75rem;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  font: normal 600 16px/24px Montserrat;
+  text-align: center;
+  width: 10.5rem;
+  margin-top: 2rem;
+  color: #fff;
+  background: #381df6;
+}
+
+.image-time {
+  display: flex;
+  padding-left: 2rem;
+}
+
+.svg-time-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 31.25rem;
+  height: 33rem;
+}
+
+.svg-time {
+  position: absolute;
+  right: 0.5rem;
+  bottom: -8rem;
+  z-index: -1;
+}
+
+.eget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6.75rem;
+  gap: 1.5rem;
+}
+.eget .eget_h1 {
+  color: #0d0a10;
+  text-align: center;
+  font: normal 600 48px/112.5% Montserrat;
+}
+.eget .eget_p {
+  width: 40.15rem;
+  height: 5.25rem;
+  text-align: center;
+  padding: 1.25rem 25rem 3rem 25rem;
+  color: #0d0a10;
+  font: normal 600 18px/28px Montserrat;
+}
+
+.eget_boxes {
+  display: inline-flex;
+  margin: 0 10.25rem;
+}
+.eget_boxes .eget_box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.25rem;
+  height: 11.75rem;
+  padding: 3rem 3rem 3.25rem 3rem;
+  gap: 2rem;
+  border: 1px solid #CFCECF;
+}
+.eget_boxes .eget_box .middle-svg {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+
+.eget_box_span {
+  color: #0d0a10;
+  font: normal 600 18px/28px Montserrat;
+}
+
+.ratings-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.5rem 10.25rem;
+  gap: 2.5rem;
+}
+.ratings-container .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ratings-container .app .standart_img {
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1.25rem 5.5rem 2.25rem 5.5rem;
+}
+.ratings-container .app .get-app_img {
+  width: 7.25rem;
+  height: 7.25rem;
+  padding: 0 5.75rem 1rem 5.75rem;
+}
+.ratings-container .app .sa_img {
+  width: 12.25rem;
+  height: 2.5rem;
+  padding: 2rem 1rem 3.5rem 1rem;
+}
+.ratings-container .stars {
+  display: flex;
+  gap: 0.5rem;
+}
+.ratings-container span {
+  text-align: center;
+  height: 2rem;
+  margin-top: 0.5rem;
+  color: #0d0a10;
+  font: normal 400 16px/24px Montserrat;
+}
+
+.section-terms {
+  display: flex;
+}
+
+.section-terms,
+.section-time {
+  display: flex;
+  position: relative;
+  margin-top: 5.5rem;
+}
+
+.text-terms {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12rem;
+}
+.text-terms .text-terms_h1 {
+  display: flex;
+  width: 33.15rem;
+  height: 6.75rem;
+  color: #0d0a10;
+  font: normal 600 48px/112.5% Montserrat;
+}
+.text-terms .text-terms_span {
+  width: 33.15rem;
+  height: 7.75rem;
+  padding: 2rem 0;
+  color: #0d0a10;
+  font: normal 400 24px/130% Montserrat;
+}
+.text-terms .terms-button {
+  padding: 0.75rem 2rem;
+  gap: 0.75rem;
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  font: normal 600 16px/24px Montserrat;
+  text-align: center;
+  width: 10.5rem;
+  color: #fff;
+  background: #381df6;
+}
+.text-terms .text-terms_list {
+  display: flex;
+  flex-direction: column;
+  width: 33.15rem;
+  padding: 2rem 0;
+  color: #0d0a10;
+  gap: 1.5rem;
+  list-style-image: url("/images/Ellipse.png");
+  font: normal 400 18px/28px Montserrat;
+}
+
+.image-terms {
+  display: flex;
+  padding-left: 2.5rem;
+}
+
+.svg-terms-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 31.25rem;
+  height: 35rem;
+  overflow-x: hidden;
+}
+
+.svg-terms {
+  position: absolute;
+  top: -1rem;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,71 @@
+.section-terms {
+  display: flex;
+}
+.section-terms,
+.section-time {
+  display: flex;
+  position: relative;
+  margin-top: 5.5rem;
+}
+
+.text-terms {
+  display: flex;
+  flex-direction: column;
+  padding-left: 12rem;
+
+  .text-terms_h1 {
+    display: flex;
+    width: 33.15rem;
+    height: 6.75rem;
+    color: $colorblack;
+    font: normal 600 48px/112.5% Montserrat;
+  }
+
+  .text-terms_span {
+    width: 33.15rem;
+    height: 7.75rem;
+    padding: 2rem 0;
+    color: $colorblack;
+    font: normal 400 24px/130% Montserrat;
+  }
+
+  .terms-button {
+    @include buttons;
+    text-align: center;
+    width: 10.5rem;
+    color: $text-color;
+    background: $main-color;
+  }
+
+  .text-terms_list {
+    display: flex;
+    flex-direction: column;
+    width: 33.15rem;
+    padding: 2rem 0;
+    color: $colorblack;
+    gap: 1.5rem;
+    list-style-image: url("/images/Ellipse.png");
+    font: normal 400 18px/28px Montserrat;
+  }
+}
+
+.image-terms {
+  display: flex;
+  padding-left: 2.5rem;
+}
+
+.svg-terms-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 31.25rem; 
+  height: 35rem; 
+  overflow-x: hidden;
+}
+
+.svg-terms {
+  position: absolute;
+  top: -1rem;
+  z-index: -1;
+}
